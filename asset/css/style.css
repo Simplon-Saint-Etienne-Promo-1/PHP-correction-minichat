@@ -1,0 +1,27 @@
+#circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+body {
+    background-color: #fff59d;
+}
+
+#border-form {
+    background-color: #ffcc80;
+    border-radius: 25px;
+}
+
+input {
+    color: black;
+}
+
+.input-field input::placeholder {
+    color: black;
+  }
+
+  .chat{
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
